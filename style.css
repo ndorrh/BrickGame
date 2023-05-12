@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  background-color: black;
+  position: relative;
+}
+
+.btn {
+  margin-top: 20px;
+  background-color: #0095dd;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  font-size: 18px;
+  transition: 0.5s ease-in-out;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #0095dd;
+}
+
+h1 {
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  display: flex;
+}
+
+.message {
+  position: absolute;
+}
+
+#left,
+#right {
+  font-size: 30px;
+}
+
+
