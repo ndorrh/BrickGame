@@ -12,8 +12,8 @@ myCanvas.height = window.innerHeight - 500
 let gravity = Math.random() / 10
 let x = myCanvas.width / 2;
 let y = myCanvas.height - 30;
-let dx = 1 + gravity + level / 2;
-let dy = -1 - gravity - level / 2;
+let dx = 5 + gravity + level / 2;
+let dy = -5 - gravity - level / 2;
 const ballRadius = 10;
 const paddleHeight = 10;
 const paddleWidth = 75;
@@ -238,8 +238,8 @@ const draw = () => {
       } else {
         x = myCanvas.width / 2;
         y = myCanvas.height - 30;
-        dx = 1 + (Math.random() / 10) + level / 2;
-        dy = -1 - (Math.random() / 10) - level / 2;
+        dx = 5 + (Math.random() / 10) + level / 2;
+        dy = -5 - (Math.random() / 10) - level / 2;
         paddleX = (myCanvas.width - paddleWidth) / 2;
       }
     }
