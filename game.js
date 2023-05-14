@@ -64,7 +64,7 @@ if (myCanvas.width < 769) {
   right.classList.remove('hidden');
 }
 
-if (myCanvas.width < 426) {
+if (myCanvas.width <= 425) {
   brickRowCount = 4;
   brickColumnCount = 15;
   brickWidth = myCanvas.width / (brickColumnCount / 0.65);
